@@ -28,12 +28,13 @@ body {
   margin-top: 5px;
   text-align: center;
 }
-#collapsable-nav > ul li > span{
+/*#collapsable-nav > ul li > span{
   margin:auto;
-}
-
-#navbar-list li span hr{
+}*/
+#navbar-list li span + hr{
   width: 90%;
+  margin: 5px auto;
+  padding: 5px auto;
 }
 /***** Main Container *****/
 #main-content h1 {
@@ -55,6 +56,10 @@ body {
   padding: 5px;
   text-overflow: auto;
   font-size: 1em;
+}
+
+.description+a{
+  padding: 5px;
 }
 /* Provide CSS for the section headers*/
 .label{
